@@ -13,5 +13,15 @@ Users can visit the blog site and enter comments on particular postings, but
 cannot modify postings or other users' comments.
 
 This web blog application is built based on the Client-Server architecture, the 
-Model-View-Controller model, and the Active Record Dsign Pattern associated with
-SQLite Database to store persistent blog data.
+Model-View-Controller model, and the Active Record Dsign Pattern.
+
+Persistent blog data and post/comment association is stored in SQLite Database
+using the Object-Relational Mapping (ORM).
+
+User input data is validated on client-side (JavaScript, HTML5) and server-side
+(Model-level, DB stored procedures) to avoid attacks such as SQL injection,
+buffer overflow, cross-site scripting, etc.
+
+
+Copyright (c) 2014 Kimi Zhong.
+Released under the MIT license. See LICENSE for details.
