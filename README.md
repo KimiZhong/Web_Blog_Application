@@ -23,5 +23,5 @@ User input data is validated on client-side (JavaScript, HTML5) and server-side
 buffer overflow, cross-site scripting, etc.
 
 
-Copyright (c) 2014 Kimi Zhong.
+Copyright (c) 2014 Kimi Zhong. MOOC Web Application Architectures.
 Released under the MIT license. See LICENSE for details.
